@@ -37,13 +37,13 @@ const PriceTable = () => {
         <Tbody>
           <Tr>
             <Td>Registration Fee</Td>
-            <Td rowSpan={2}>$22</Td>
-            <Td rowSpan={2}>$100</Td>
+            <Td colSpan={2}>$22</Td>
+            <Td colSpan={2}>$100</Td>
           </Tr>
           <Tr>
             <Td>Distance</Td>
-            <Td rowSpan={2}>At least 22km/pax</Td>
-            <Td rowSpan={2}>10km</Td>
+            <Td colSpan={2}>At least 22km/pax</Td>
+            <Td colSpan={2}>10km</Td>
           </Tr>
         </Tbody>
       </Table>
