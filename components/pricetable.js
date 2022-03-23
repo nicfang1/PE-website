@@ -30,6 +30,8 @@ const PriceTable = () => {
           <Tr>
             <Th>Individual</Th>
             <Th>Group (5pax)</Th>
+            <Th>Individual</Th>
+            <Th>Group (5pax)</Th>
           </Tr>
         </Thead>
         <Tbody>
@@ -40,8 +42,8 @@ const PriceTable = () => {
           </Tr>
           <Tr>
             <Td>Distance</Td>
-            <Td>$22</Td>
-            <Td>$100</Td>
+            <Td>At least 22km/pax</Td>
+            <Td>10km</Td>
           </Tr>
         </Tbody>
       </Table>
