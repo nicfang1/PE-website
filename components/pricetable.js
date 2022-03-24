@@ -11,7 +11,7 @@ import {
 
 const PriceTable = () => {
   return (
-    <Box px="auto" my={50} textAlign="center">
+    <Box px="auto" my={50} textAlign="center" overflow="scroll">
       <Table variant="simple">
         <TableCaption>
           By joining the “Competitive” category, participants will stand a
@@ -37,8 +37,10 @@ const PriceTable = () => {
         <Tbody>
           <Tr>
             <Td>Registration Fee</Td>
-            <Td colSpan={2}>$22</Td>
-            <Td colSpan={2}>$100</Td>
+            <Td>$22</Td>
+            <Td>$100</Td>
+            <Td>$22</Td>
+            <Td>$100</Td>
           </Tr>
           <Tr>
             <Td>Distance</Td>
