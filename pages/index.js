@@ -15,9 +15,9 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-
 import { IoLogoInstagram, IoLogoFacebook } from 'react-icons/io5'
 import Image from 'next/image'
+import InstagramEmbed from 'react-instagram-embed'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -138,6 +138,16 @@ const Home = () => (
           </ListItem>
         </List>
       </Section>
+
+      <InstagramEmbed
+        url="https://www.instagram.com/projempower/"
+        clientAccessToken="284281590392120|808edb4c3e99371e6e20baf3313158c3"
+        maxWidth={320}
+        hideCaption={false}
+        containerTagName="div"
+        protocol=""
+        injectScript
+      />
     </Container>
   </Layout>
 )

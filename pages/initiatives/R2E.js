@@ -34,10 +34,6 @@ const Work = () => (
       <List ml={4} my={4}>
         <Heading as="h4">Details</Heading>
         <ListItem>
-          <Meta>Sign Up Period</Meta>
-          <span>18 March 2022 - 15 April 2022</span>
-        </ListItem>
-        <ListItem>
           <Meta>Event Period</Meta>
           <span>1 May 2022 - 1 June 2022</span>
         </ListItem>

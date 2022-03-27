@@ -52,14 +52,14 @@ const getinvolved = () => {
                 href="https://www.facebook.com/Project-Empower-107679328546793"
                 target="_blank"
               >
-                <Button colorScheme="teal" mt={4} leftIcon={<IoLogoFacebook />}>
+                <Button colorScheme="teal" mt={3} leftIcon={<IoLogoFacebook />}>
                   Facebook
                 </Button>
               </Link>
               <Link href="https://instagram.com/projempower" target="_blank">
                 <Button
                   colorScheme="teal"
-                  mt={4}
+                  mt={3}
                   leftIcon={<IoLogoInstagram />}
                 >
                   Instagram
