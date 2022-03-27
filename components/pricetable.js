@@ -24,8 +24,8 @@ const PriceTable = () => {
         <Thead>
           <Tr>
             <Th rowSpan={2}>Category</Th>
-            <Th>Competitive</Th>
-            <Th>Casual</Th>
+            <Th colSpan={2}>Competitive</Th>
+            <Th colSpan={2}>Casual</Th>
           </Tr>
           <Tr>
             <Th>Individual</Th>
