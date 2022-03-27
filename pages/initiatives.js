@@ -5,7 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 import R2E from '../public/images/R2E.png'
 
 const Works = () => (
-  <Layout title="intiatives">
+  <Layout title="Intiatives">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Initiatives

@@ -74,3 +74,4 @@ const getinvolved = () => {
 }
 
 export default getinvolved
+export { getServerSideProps } from '../components/chakra'
