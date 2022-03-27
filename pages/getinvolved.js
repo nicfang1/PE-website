@@ -13,7 +13,7 @@ import Section from '../components/section'
 
 const getinvolved = () => {
   return (
-    <Layout title="get-involved">
+    <Layout title="Get Involved">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
           How can you help?
