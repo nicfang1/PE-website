@@ -126,7 +126,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <NextLink href="https://instagram.com/projempower">
+            <Link href="https://instagram.com/projempower" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -134,7 +134,7 @@ const Home = () => (
               >
                 @projempower
               </Button>
-            </NextLink>
+            </Link>
           </ListItem>
         </List>
       </Section>
