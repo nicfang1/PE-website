@@ -25,11 +25,11 @@ const Work = () => (
         Project Empower’s very first initiative is a virtual walkathon named
         &apos;Run to Empower 2022&apos;. This fundraising event not only serves
         to help us raise enough funds to meet the financial needs of our
-        upcoming initiatives (as mentioned above), but also to raise awareness
-        of our cause, which is to shed light on the importance of caregivers and
-        the increasing negligence of their well-being. If our cause deeply
-        resonates with you, then do join us on our journey to fulfil our vision
-        by participating in this walkathon!
+        upcoming initiatives, but also to raise awareness of our cause, which is
+        to shed light on the importance of caregivers and the increasing
+        negligence of their well-being. If our cause deeply resonates with you,
+        then do join us on our journey to fulfil our vision by participating in
+        this walkathon!
       </P>
       <List ml={4} my={4}>
         <Heading as="h4">Details</Heading>
