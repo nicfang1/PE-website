@@ -37,10 +37,10 @@ const PriceTable = () => {
         <Tbody>
           <Tr>
             <Td>Registration Fee</Td>
-            <Td>$22</Td>
-            <Td>$100</Td>
-            <Td>$22</Td>
-            <Td>$100</Td>
+            <Td>$15</Td>
+            <Td>$70</Td>
+            <Td>$15</Td>
+            <Td>$70</Td>
           </Tr>
           <Tr>
             <Td>Distance</Td>

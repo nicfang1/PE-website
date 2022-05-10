@@ -54,10 +54,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Box align="center" my={4}>
-            <NextLink
-              href="https://docs.google.com/forms/d/e/1FAIpQLScycxbrMNzExaTiKRIUIPnNc8S-9hwe1Umbbe455msD2dkdcQ/viewform?usp=sf_link"
-              scroll={false}
-            >
+            <NextLink href="https://tinyurl.com/yc64uhkv" scroll={false}>
               <Button rightIcon={<ExternalLinkIcon />} colorScheme="teal">
                 Sign up now!
               </Button>
